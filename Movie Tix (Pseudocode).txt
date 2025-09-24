@@ -1,0 +1,9 @@
+1.	Start
+2.	Ask: "How many movies will you enter?"
+3.	Initialize totalTickets = 0
+4.	Loop through each movie (For or While):
+ a. Ask user: "Enter movie name"
+ b. Ask user: "Enter number of tickets"
+ c. Add tickets to totalTickets
+5.	After loop ends → Display totalTickets
+6.	End

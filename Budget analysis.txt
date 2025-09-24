@@ -1,0 +1,14 @@
+Start
+    Input monthly budget → budget
+    Set total_expenses = 0
+    While more expenses to enter
+        Input expense
+        Add expense to total_expenses
+        Ask if user wants to enter another expense
+    End While
+    If total_expenses > budget
+        Display "Over budget by (total_expenses - budget)"
+    Else
+        Display "Under budget by (budget - total_expenses)"
+    End If
+End
